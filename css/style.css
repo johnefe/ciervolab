@@ -140,7 +140,10 @@ div.wpcf7 .wpcf7-submit:disabled {
 		post
 =============================================*/
 .main-post{
-	border-top: 3px solid #ef5350;
+	border-top: 3px solid #ef5350; /* #ef5350 rojo*/
+}
+.main-post h4{
+	font-weight: bold;
 }
 .post {
 	margin-top: 8px;
@@ -195,4 +198,53 @@ content img
 }
 .info-1 h2,p{
 	color: #fff;
+}
+
+/* ===============================================
+	suscribe
+=================================================*/
+
+.suscribe{
+	padding-top: 50px !important;
+	margin-left: 10px;
+	
+}
+.suscribe h3{
+	font-weight: 700;
+	color: #000;
+}
+.suscribe a{
+	font-size: 20px !important;
+	text-decoration: none;
+}
+.suscribe a:hover{
+	color: #fff;
+}
+
+.twitter-block{
+	padding: 15px;
+}
+
+.twitter-block a{
+	color: #03a9f4;
+	font-size: 18px !important;
+}
+.twitter-block a:hover{
+	color: #03a9f4;
+}
+.twitter-block h3{
+	color: #fff;
+
+}
+
+
+/*==================================================*/
+
+.more{  
+	color: #fff;
+	font-size: 18px !important;
+}
+.more:hover{  
+	color: #fff;
+	font-size: 18px !important;
 }
