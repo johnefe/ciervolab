@@ -283,8 +283,8 @@ content img
 }
 
 .tab-modern .tab-modern__nav-link.active {
-  color: #21c87a !important;
-  border-bottom-color: red !important;
+  color: #ef5350 !important;
+  border-bottom-color: #ef5350 !important;
   background-color: transparen !important;
 }
 
@@ -294,7 +294,7 @@ content img
 }
 
 .tab-modern .tab-modern__nav-link:hover {
-  color: #21c87a !important;
+  color: #ef5350 !important;
 }
 
 .tab-modern .tab-modern__nav-link:hover .tab-modern__nav-link-icon {
@@ -305,3 +305,27 @@ content img
 
 
 /*----------------------------------------------*/
+
+.service{
+	width: 200px;
+	font-size: 18px !important;
+}
+.service:hover{
+	width: 205px;
+	
+}
+
+/*-----------------------------------------------*/
+
+.card-blog a{
+	color:  #ef5350;
+}
+.card-blog a:hover{
+	color:  #ef5350;
+}
+
+.card-blog img:hover {
+	filter: opacity(.5);
+	/*filter: blur(5px);*/
+}
+
