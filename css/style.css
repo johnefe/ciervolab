@@ -261,18 +261,18 @@ content img
   Tab Modern
 ------------------------------------*/
 .tab-modern {
-  border-bottom: none;
+  border-bottom: none !important;
 }
 
 .tab-modern .tab-modern__nav-link {
-  min-width: 10rem;
-  color: #646f79;
-  text-align: center;
-  font-weight: 400;
-  border: none;
-  border-bottom: 2px solid #e3e6f0;
-  border-radius: 0;
-  padding: 0.5rem;
+  min-width: 10rem !important;
+  color: #646f79 !important;
+  text-align: center !important;
+  font-weight: 400 !important;
+  border: none !important;
+  border-bottom: 2px solid #e3e6f0 !important;
+  border-radius: 0 !important;
+  padding: 0.5rem !important;
 }
 
 .tab-modern .tab-modern__nav-link-icon {
@@ -283,9 +283,9 @@ content img
 }
 
 .tab-modern .tab-modern__nav-link.active {
-  color: #21c87a;
-  border-bottom-color: #21c87a;
-  background-color: transparent;
+  color: #21c87a !important;
+  border-bottom-color: red !important;
+  background-color: transparen !important;
 }
 
 .tab-modern .tab-modern__nav-link.active .tab-modern__nav-link-icon {
@@ -294,7 +294,7 @@ content img
 }
 
 .tab-modern .tab-modern__nav-link:hover {
-  color: #21c87a;
+  color: #21c87a !important;
 }
 
 .tab-modern .tab-modern__nav-link:hover .tab-modern__nav-link-icon {
