@@ -329,3 +329,26 @@ content img
 	/*filter: blur(5px);*/
 }
 
+.icon-contact{
+	color: #ef5350;
+}
+
+/*-----------------------------------------------*/
+
+/*------------------------------------
+  Info v1
+------------------------------------*/
+.u-info-v1 {
+  border: 1px solid #e3e6f0;
+  border-top-width: 4px;
+  transition: 0.3s;
+}
+
+.u-info-v1.active, .u-info-v1:hover {
+  border-color: #ef5350;
+  box-shadow: 0 0 35px rgba(140, 152, 164, 0.25);
+}
+
+.time-job span{
+	color: #ef5350 !important;
+}
