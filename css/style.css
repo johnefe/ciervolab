@@ -152,13 +152,32 @@ div.wpcf7 .wpcf7-submit:disabled {
 }
 
 .sub-post{
-	border:1px solid #ef5350 !important;
+	border:1px solid #bdbdbd !important;
+}
+.sub-post:hover{
+  border-color: #ef5350;
+  box-shadow: 0 0 30px rgba(140, 152, 164, 0.5);
 }
 
 .sub-post2{
-	border:1px solid #ab47bc !important;
+	border:1px solid #bdbdbd !important;
 }
 
+.sub-post2:hover{
+	border-color: #ef5350;
+  box-shadow: 0 0 30px rgba(140, 152, 164, 0.5);
+}
+
+.btn-m a{
+	font-size: 18px;
+}
+.btn-m{
+	padding-bottom: 15px !important;
+}
+.txt-suscribe{
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+}
 /* ===========================================
 	promotion
 =============================================*/
